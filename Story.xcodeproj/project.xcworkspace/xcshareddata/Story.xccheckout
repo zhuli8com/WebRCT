@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2169095E-8945-437D-BC1C-E91345CDFF7D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Story</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5212E94FC32E75BDDF95D42ABE38377DEC76815A</key>
+		<string>https://github.com/zhuli8com/paoge.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Story.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5212E94FC32E75BDDF95D42ABE38377DEC76815A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zhuli8com/paoge.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5212E94FC32E75BDDF95D42ABE38377DEC76815A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5212E94FC32E75BDDF95D42ABE38377DEC76815A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>paoge</string>
+		</dict>
+	</array>
+</dict>
+</plist>

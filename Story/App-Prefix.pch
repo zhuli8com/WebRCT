@@ -1,0 +1,33 @@
+//
+//  ZhuLi-Prefix.pch
+//  ZhuLi
+//
+//  Created by account on 15/4/22.
+//  Copyright (c) 2015年 chinasofti. All rights reserved.
+//
+
+#ifndef ZhuLi_Prefix_pch
+#define ZhuLi_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+/**
+ *  日志相关
+ #字符串中包含宏参数,##两个语言符号组合成单个语言符号,\连接字符串
+ >> 2015-05-05 17:04:24.649 [st_log]  STChatViewController.m:2188 -[STChatViewController selectEmotion:] :Pressed button
+ */
+#ifdef DEBUG//处于开发阶段
+#define AppLog(format,...) NSLog((@" [%@] %@:%d %s\n>> "format),@"ZLLog",[[NSString stringWithUTF8String:__FILE__] lastPathComponent],__LINE__,__FUNCTION__,##__VA_ARGS__)
+//#define ZLLog(FORMAT,...) fprintf(stderr,"\nfunction:%s line:%d content:%s\n", __FUNCTION__, __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String])
+#else//处于发布阶段
+#define AppLog(...)
+#endif
+
+#ifdef __OBJC__
+//#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "AppGlobal.h"
+
+#endif
+#endif
